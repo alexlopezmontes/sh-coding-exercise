@@ -5,7 +5,7 @@ General instructions:
 - Note that I have simulated responses from the APIs for unit tests but haven't done so for when the worker runs.
 
 Comments for OrderApiGateway
-- I wasn't sure if we'd hipotetically have control over the API we consume. If so, I'd recommend adding an enpoint that allows us filter by status, such as GET - api/orders?status=Delivered
+- I wasn't sure if we'd hipotetically have control over the API we consume. If so, I'd recommend adding an enpoint that allows us filter by status, such as GET - api/orders?status=Delivered.
 Comments for Orders Worker
 - The idea is to add a Background job processing framework such as hangfire.  I felt that adding too much robustness might delay the application submission, so I've kept it relatively simple for now.
 Comments For Utility
