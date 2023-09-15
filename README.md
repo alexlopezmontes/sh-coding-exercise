@@ -1,4 +1,5 @@
-##General instructions:
+##General instructions
+
 - Set the Worker project as the Startup project.
 - Ensure you have obtained the necessary NuGet packages.
 - Note that I have simulated responses from the APIs for unit tests but haven't done so for when the worker runs.
