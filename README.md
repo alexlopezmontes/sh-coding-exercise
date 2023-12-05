@@ -1,5 +1,16 @@
 ##General instructions
 
+This project was a technical evaluation for a Sr Software Engineering position.  The following scenario was presented:
+
+Scenario:
+We have implemented a background process responsible for monitoring order status with the objective of identifying orders that have reached a 'delivered' state. Upon detection of such orders, a delivery notification is dispatched through a secondary API. After the notification is sent, we then update the order record via API.
+
+Regrettably, the developer responsible for delivering this essential functionality won the lottery and quit the next day. On their departure, they forwarded us a segment of code pertaining to this task. While we have reasonable confidence in its functionality, a preliminary review indicates deviations from established best practices. Adding to the complexity, the absence of the Product Owner (PO) due to vacation without access to cellular communication means that clarifications on the code or its requirements cannot be promptly obtained.
+
+This situation places us at a crossroads, as the business is eager to expedite the integration of this feature into the production environment. Thus, we're venturing forth to revisit and refine the provided code. Your job is to fix up the code, make sure it fits current coding best practices and make the code more supportable
+
+
+
 - Set the Worker project as the Startup project.
 - Ensure you have obtained the necessary NuGet packages.
 - Note that I have simulated responses from the APIs for unit tests but haven't done so for when the worker runs.
